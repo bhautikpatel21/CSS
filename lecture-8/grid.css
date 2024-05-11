@@ -1,0 +1,29 @@
+.container {
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: palevioletred;
+}
+
+#box3 {
+    background-color: rgb(238, 238, 12);
+}
+
+#box4 {
+    background-color: brown;
+}

@@ -10,7 +10,7 @@
     border:10px solid black;
     padding:20px;
     background-color: green;
-    box-sizing: content-box;
+    box-sizing: content-box; 
 }
 .border-box{
     height: 300px;

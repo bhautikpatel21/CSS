@@ -1,0 +1,17 @@
+.padding{
+  border: 2px solid blue;
+  height: 200px;
+  width: 200px;
+  
+}
+.padding{
+    /* padding: 50px; */
+    /* padding-left: 70px; */
+    /* padding-top: 10px; */
+    /* padding-right: 50px; */
+    /* padding-bottom: 4px; */
+    padding-inline-start: 10px;
+    /* padding-inline-end: 10px; */
+    /* padding-block: 50px; */
+    /* padding-inline: 90px; */
+}

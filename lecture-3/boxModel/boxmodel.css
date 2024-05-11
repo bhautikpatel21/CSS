@@ -1,0 +1,31 @@
+
+/* border */
+
+h1{
+    border: 12px solid; 
+    background-color: aqua; 
+}
+
+/* margin */
+
+h1{
+    margin: 50px;
+}
+
+/* padding */
+
+h1 {
+    padding: 10px;
+}
+
+/* height */
+
+h1 {
+    height: 50px;
+}
+
+/* width */
+
+h1 {
+    width: 150px;
+}

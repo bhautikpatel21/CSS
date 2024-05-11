@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+/* flex-container */
+
+/* .content-box{
+    height: 300px;
+    width: 300px;
+    border:10px solid black;
+    padding:20px;
+    background-color: green;
+    box-sizing: content-box;
+}
+.border-box{
+    height: 300px;
+    width: 300px;
+    border:10px solid black;
+    padding:20px;
+    background-color: green;
+    box-sizing: border-box;
+} */
+
+/*
+flex-wrap:warp;
+flex-wrap:nowarp;
+flex-wrap:warp-reverse;
+flex-direaction:row;
+flex-direaction:row-reverse;
+flex-direaction:col;
+flex-direaction:col-reverse;
+align-self:start;
+align-self:end;
+align-self:center;
+
+
+*/
+
+.parent{
+    /* background-color: gray;
+    border:2px solid black;
+    display: flex;
+    flex-wrap: wrap; */
+    /* flex-wrap:nowrap; */
+    /* flex-wrap:wrap-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction:column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly;    */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* flex-flow:wrap row-reverse; */
+}
+
+/* .child-1{
+    background-color: purple;
+    display: flex;
+}
+.child-2{
+    background-color: yellow;
+    display: flex;
+}
+.text-1{
+    order:2;
+}
+.image-1{
+    order:1;
+}
+.text-2{
+    order:2;
+}
+.image-2{
+    order:1;
+} */
+/* .child-3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    order:3;
+
+}
+.child-4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    order:4;
+
+}
+.child-5{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    order:5;
+
+}
+.child-6{
+    height: 100px;
+    width: 100px;
+    background-color:brown;
+    order:1;
+
+} */
+
+/* a{
+    color:white;
+    text-decoration: none;
+}
+
+.para{
+    display: flex;
+}
+.list{
+display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+}
+
+nav a{
+    margin-left: 50px;
+    font-weight: bold;
+} */
+
+
+/* order in flex */
+
+.grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+
+
+/* https://preview.themeforest.net/item/avada-responsive-multipurpose-theme/full_screen_preview/2833226?_ga=2.53069672.1101629519.1715317891-1512572296.1713414024 */
+
+/* https://wpbingosite.com/wordpress/bookio/ */
+

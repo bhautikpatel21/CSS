@@ -1,0 +1,27 @@
+#box {
+    color: aqua;
+}
+
+#circle {
+    color: brown;
+}
+
+.sel1 {
+    color: violet;
+}
+
+.sel2 {
+    color: blueviolet;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+*{
+    background-color: powderblue;
+}
+
+pre,.ci,#b {
+    color: green;  
+}

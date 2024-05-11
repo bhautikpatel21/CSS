@@ -1,0 +1,13 @@
+/* specificity */
+
+h4 {
+    color: yellow
+}
+
+#specificity_id {
+    color: blueviolet;
+}
+
+.specificity_class {
+    color: chocolate;
+}

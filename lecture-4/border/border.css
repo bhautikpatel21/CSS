@@ -1,0 +1,55 @@
+/* css border */
+
+.border{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.border{
+    color: white;
+    border-width: 10px;
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: hidden; */
+    /* border-style: inherit; */
+    /* border-style: initial; */
+    border-style: inset;
+    /* border-style: none; */
+    /* border-style: outset; */
+    /* border-style: ridge; */
+    /* border-style: solid; */
+    /* border-style: unset; */
+    border-color: red;
+}
+
+/* multiple border apply */
+
+.multiple_border{
+    border-top: 2px solid red;
+    border-right: 5px solid gray;
+    border-bottom: 8px solid green;
+    border-left: 10px solid blue;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+/* border radius apply */
+
+.radius{
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+
+    /* second way of apply radius */
+
+    /* border-radius: 10px,5px,7px,9px; This apply on top,right,bottom,left */
+
+    /* border-radius: 10px,20px; This apply on top , buttom  */
+}

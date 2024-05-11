@@ -1,0 +1,14 @@
+
+/*  Add color on text  */
+
+.color{
+    color: aquamarine; /* using color name  */
+    color: rgb(155, 226, 226); /* using rgb value */
+    color: #421e1e;  /* using hexadecimal value*/
+}
+
+/*  Add background color  */
+
+.bgcolor{
+    background-color: thistle;
+}

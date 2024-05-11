@@ -1,0 +1,23 @@
+/* inheritance */
+
+.parent {
+    color: red;
+}
+
+/* child */
+
+p{
+    color : blue
+}
+
+/* inherit means parants style take */
+
+p{
+    color: inherit;
+}
+
+/* initital means default browser style take */
+
+p{
+    color: initial;
+}

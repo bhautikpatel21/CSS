@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+}
+.navbar {
+    border-radius:5px;
+    margin: 20px;
+    background-color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    padding:10px;
+    background: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.active{
+    background-color: rgb(99, 159, 14);
+    border-radius: 20px;
+    padding: 10px;
+}

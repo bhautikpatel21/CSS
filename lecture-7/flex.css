@@ -61,7 +61,7 @@ align-self:center;
 }
 
 .child-1{
-    height: 100px;
+    height: 100px; 
     width: 100px;
     background-color: purple;
     /* align-self: center; */

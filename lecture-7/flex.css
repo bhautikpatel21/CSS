@@ -40,7 +40,7 @@ align-self:center;
     height: 600px;
     border: 2px solid black;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* flex-wrap: nowrap; */
     /* flex-wrap: wrap-reverse; */
     /* flex-direction: row; */

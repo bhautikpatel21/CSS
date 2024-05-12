@@ -37,10 +37,10 @@ align-self:center;
 */
 
 .parent{
-    /* background-color: gray;
+    background-color: gray;
     border:2px solid black;
     display: flex;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* flex-wrap:nowrap; */
     /* flex-wrap:wrap-reverse; */
     /* flex-direction: row; */
@@ -59,7 +59,7 @@ align-self:center;
     /* flex-flow:wrap row-reverse; */
 }
 
-/* .child-1{
+.child-1{
     background-color: purple;
     display: flex;
 }
@@ -78,8 +78,8 @@ align-self:center;
 }
 .image-2{
     order:1;
-} */
-/* .child-3{
+}
+.child-3{
     height: 100px;
     width: 100px;
     background-color: orange;
@@ -106,9 +106,9 @@ align-self:center;
     background-color:brown;
     order:1;
 
-} */
+}
 
-/* a{
+a{
     color:white;
     text-decoration: none;
 }
@@ -129,7 +129,7 @@ display: flex;
 nav a{
     margin-left: 50px;
     font-weight: bold;
-} */
+}
 
 
 /* order in flex */

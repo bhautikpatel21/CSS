@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 15px;
+}
+.parent{
+    display: grid;
+    background-color: black;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 190px 190px 111px ;
+    gap: 15px;
+}
+.box-1{
+    grid-column: 1/4;
+    background-color: blue;
+}
+.box-2{
+    grid-row: 2/4;
+    background-color:aqua;
+}
+.box-3{
+    grid-column: 2/4;
+    background-color:blueviolet;
+}
+.box-4{
+    background-color: pink;
+}
+.box-5{
+    background-color: rgb(133, 243, 219);
+}
+.box-6 {
+    grid-column: 1/4    ;
+    background-color: purple;
+}

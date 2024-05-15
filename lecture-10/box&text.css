@@ -1,0 +1,18 @@
+.box{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    color: white;
+    /* box-shadow: 10px 10px 2px 1px red insert; */
+}
+
+h1{
+    text-transform: lowercase;
+    text-align: end;
+    text-decoration-line: line-through;
+    text-decoration-color: yellow;
+    text-shadow: 5px 5px 5px red;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+}

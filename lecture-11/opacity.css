@@ -1,0 +1,70 @@
+.parent{
+    display: flex;
+    gap: 10px;
+}
+.box1{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 1;
+}
+.box2{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.9;
+}
+.box3{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.8;
+}
+.box4{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.7;
+}
+.box5{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.6;
+}
+.box6{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.5;
+}
+.box7{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.4;
+}
+.box8{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.3;
+}
+.box9{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+}
+.box10{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0.1;
+}
+.box11{
+    background-color: darkorange;
+    height: 100px;
+    width: 100px;
+    opacity: 0;     /* hide box */
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+}
+.content{
+    display: grid;
+    width: 100%;
+    background-color: aquamarine;
+    gap: 10px;
+}
+
+.box1{
+    background-color: rgb(118, 200, 200);
+    background-image: linear-gradient(to bottom right, blue, pink);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+.box2{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100px;
+    background-color:color(from color srgb r g b);
+    align-items: center;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 2;
+}
+.ul{
+    display: flex;
+    gap: 2vw;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color:color(from color srgb r g b);
+    color: blue;
+    margin-right: 300px;
+    margin-left: 10px;
+}
+#fb{
+    color: white;
+    margin-right: 20px;
+}
+#ins{
+    color: white;
+    margin-right: 20px;
+}
+#tw{
+    color: white;
+    margin-right: 70px;
+}
+.megaOne{
+    margin-right: 250px;
+    font-size:50px;
+    color: white;
+}
+#menu{
+    color: white;
+    font-size: 40px;
+    margin-right: 150px;
+}
+.box1-1{
+    width: 500px;
+    height: 500px;
+    border-radius: 80px;
+    transform: rotate(30deg);
+    margin-left: -60px;
+    margin-top: -90px;
+    /* position: absolute; */
+    /* z-index: 1; */
+    background-color: rgb(9, 180, 247);
+}
+.box1-3{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(239, 39, 139);
+    border-radius: 100%;
+}
+.img{
+    margin-top: 170px;
+    border-radius: 50px;
+}
+.box1-2{
+    width: 600px;
+    height: 400px;
+    background-color:color(from color srgb r g b);
+    margin-top: 300px;
+}
+.span{
+    font-size: 80px;
+    color: rgb(235, 21, 170);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.span2
+{
+    font-size: 80px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text{
+    font-size: 20px;
+}
+.button2{
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(9, 180, 247);
+}
+.box1-3{
+    width: 600px;
+    height: 600px;
+    background-color: blueviolet;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clip{
+    width: 60%;
+    height: 500px;
+    background-color: lightcoral;
+    border: 5px dotted black;
+    margin: 50px auto;
+    padding: 100px;
+    /* background-clip: border-box; */
+    /* background-clip: content-box; */
+    background-clip: padding-box;
+}
+
+.listing{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    /* list-style-type: circle;  give circle  */
+    /* list-style-image: url(); */
+    /* list-style-position: inside;   show inside div */
+    /* list-style-position: outside;         show outside div */
+}

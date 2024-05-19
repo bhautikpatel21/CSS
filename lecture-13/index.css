@@ -21,7 +21,7 @@
     height: 300px;
     background-color: aqua;
     /* list-style-type: circle;  give circle  */
-    /* list-style-image: url(); */
+    /* list-style-image: url(c.png); */
     /* list-style-position: inside;   show inside div */
-    /* list-style-position: outside;         show outside div */
+    list-style-position: outside;        /* show outside div*/
 }

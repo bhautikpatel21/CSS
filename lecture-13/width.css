@@ -1,0 +1,15 @@
+.width{
+    width: 800px;
+    height: 200px;
+    background-color: lightblue;
+    border: 5px solid black;
+    margin: auto;
+}
+.min-width{
+    min-width: 500px;
+    max-width: 600px;
+    height: 200px;
+    background-color: lightblue;
+    border: 5px solid black;
+    margin: auto;
+}

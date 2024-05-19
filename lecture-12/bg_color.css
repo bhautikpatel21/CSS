@@ -1,0 +1,21 @@
+.main {
+
+    /* background-image: url("images/pexels-pixabay-65894.jpg");
+    background-repeat: no-repeat;
+    border: 5px solid hsl(0, 100%, 50%);
+    background-attachment: fixed;
+    background-size:  auto; */
+
+    /* height: 500px;
+    width: 800px; */
+    background-color: aqua;
+    background-image:url(images/asset\ 47.png);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size:500px;
+    background-size:cover; */
+    /* background-size:contain; */
+    background-attachment: fixed;
+
+}

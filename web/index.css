@@ -47,7 +47,7 @@
 .button{
     border-radius: 20px;
     padding: 10px;
-    background-color:color(from color srgb r g b);
+    background-color: color(from color srgb r g b);
     color: blue;
     margin-right: 300px;
     margin-left: 10px;
@@ -114,6 +114,7 @@
 }
 .text{
     font-size: 20px;
+    color: white;
 }
 .button2{
     border-radius: 35px;
@@ -428,7 +429,7 @@
 .box9{
     width: 100%;
     height: 800px;
-    background-color: cadetblue;
+    background-image: linear-gradient(to bottom right, rgb(64, 64, 238), rgb(106, 68, 144));
     display: flex;
     gap: 5px;
     justify-content: center;
@@ -436,20 +437,20 @@
 .box91{
     height: 100%;
     width: 400px;
-    background-color: #404854;
+    background-color: color(from color srgb r g b);
     padding-top: 150px;
     padding-left: 50px
 }
 .box92{
     height: 100%;
     width:40%;
-    background-color: #1057c2;
+    background-color: color(from color srgb r g b);
     text-align: center;
 }
 .box93{
     height: 100%;
     width:400px;
-    background-color: #404854;
+    background-color: color(from color srgb r g b);
     padding-top: 150px;
     padding-left: 50px
 }
@@ -501,4 +502,197 @@
 .para92{
     font-style: italic;
     font-size: 25px;
+    color: white;
+}
+.h2b92{
+    color: rgb(220, 22, 134);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+.h4b92{
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#star{
+    color: gold;
+}
+.b9m1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 5px;
+}
+.b9m2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 5px;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+.b9m3{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 5px;
+    margin-left: 80px;
+}
+.b9m4{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.box10{
+    width: 100%;
+    height: 350px;
+    background-color:white;
+    text-align: center;
+}
+.box10h2{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.b10h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.bhs{
+    color: rgb(41, 175, 227);
+}
+.box11{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: whitesmoke;
+}
+.box111{
+    height: 100%;
+    width: 450px;
+    background-color: rgb(243, 238, 229);
+    border-radius: 45px 45px 0px 0px;
+}
+.box112{
+    height: 100%;
+    width: 450px;
+    background-color:rgb(243, 238, 229);
+    border-radius: 45px 45px 0px 0px;
+}
+.box113{
+    height: 100%;
+    width: 450px;
+    background-color: rgb(243, 238, 229);
+    border-radius: 45px 45px 0px 0px;
+}
+#imgb11{
+    height: 45%;
+    width: 450px;
+    border-radius: 45px 45px 0px 0px;
+}
+.b1113{
+    color: violet;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.b111h3h1{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.p1234{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#img27{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.cli{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 116, 233);
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.hena{
+    margin-left: 150px;
+    margin-top: -70px;
+    font-family: montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.box12{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 174, 233);
+}
+.envato{
+    width: 150px;
+    height: 50px;
+    margin: 60px;
+    margin-top: 100px;
+}
+.box13{
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+.map{
+    width: 60%;
+    height: 600px;
+    margin-top: -200px;
+}
+.box14{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.box14-1{
+    height: 100%;
+    width: 30%;
+    background-color: chocolate;
+}
+.box14-2{
+    height: 100%;
+    width: 30%;
+    background-color: chartreuse;
+}
+.b14h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: montserrat, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+}
+.i3{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    font-size: 20px;
+    padding:   20px;
+}
+.i3m{
+    width: 290px;
+    height: 200px;
+}
+.i2{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
 }

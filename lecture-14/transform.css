@@ -1,0 +1,29 @@
+.content1{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+
+}
+.content1:hover {
+    transform: translate(400px, 500px);  
+}
+
+.content2{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin-bottom: 10px;
+}
+.content2:hover {
+    transform: translate(400px);  
+}
+
+.content3{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+.content3:hover {
+    transform: translateY(400px);  
+}

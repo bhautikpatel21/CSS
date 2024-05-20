@@ -3,6 +3,7 @@
     height: 100px;
     background-color: blueviolet;
     margin-bottom: 10px;
+    transition: 5s;
 
 }
 .content1:hover {
@@ -23,7 +24,77 @@
     width: 100px;
     height: 100px;
     background-color: cadetblue;
+    margin-bottom: 10px;
 }
 .content3:hover {
     transform: translateY(400px);  
+}
+
+.content4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 34, 106);
+    margin-bottom: 10px;
+}
+.content4:hover {
+    transform: rotate(30deg);
+}
+
+.content5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 211, 35);
+    margin-bottom: 10px;
+}
+.content5:hover{
+    transform: scale(3);
+}
+
+.content6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(209, 137, 30);
+    margin-bottom: 10px;
+}
+.content6:hover{
+    /* transform: scaleY(2); */
+    transform: scaleX(2);
+}
+
+.content7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 13, 14);
+    margin-bottom: 10px;
+}
+.content7:hover{
+    /* transform: skew(30deg, 45deg); */
+    transform: skewX(30deg);
+    /* transform: skewY(30deg); */
+}
+
+.Image{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+img:hover{
+    transform: scale(0.8);
+    transition: 2s;
+}
+
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.path:hover .transition{
+    width: 500px;
+    height: 500px;
+    transform: translate(900px);
+    transition-duration: 5s;
+    /* transition-duration: 5s; */
+    transition-property: width height transform;
+    transition-timing-function: ease-in-out;
 }

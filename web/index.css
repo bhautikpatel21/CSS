@@ -41,32 +41,38 @@
     gap: 2vw;
     list-style: none;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 23px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 .button{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 20px;
     color: white;
-    margin-right: 300px;
-    margin-left: 10px;
+    margin-right: 200px;
+    margin-left: 60px;
     background-color:transparent;
     border-color: white;
+    font-size: 20px;
 }
 #fb{
     color: white;
     margin-right: 20px;
+    font-size: 30px;
 }
 #ins{
     color: white;
     margin-right: 20px;
+    font-size: 30px;
 }
 #tw{
     color: white;
     margin-right: 70px;
+    font-size: 30px;
 }
 .megaOne{
-    margin-right: 50px;
+    margin-right: 200px;
+    margin-left: 60px;
     font-size:50px;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -95,6 +101,8 @@
 }
 .img{
     margin-top: 170px;
+    margin-left: 70px;
+    margin-right: 40px;
     border-radius: 50px;
 }
 .img:hover{
@@ -106,6 +114,10 @@
     height: 400px;
     background-color:color(from color srgb r g b);
     margin-top: 300px;
+}
+.img-c{
+    margin-left: -90px;
+    /* position: fixed; */
 }
 .span{
     font-size: 80px;
@@ -125,9 +137,11 @@
 .button2{
     border-radius: 35px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
+    padding: 20px;
     color: white;
     border: none;
+    width: 200px;
     background-color: rgb(9, 180, 247);
 }
 .box17{
@@ -140,6 +154,7 @@
 .button2:hover{
     color: black;
     background-color: white;
+    transition-duration: 2s;
 }
 
 .box2-1{
@@ -163,6 +178,9 @@
 .change{
     color: skyblue;
 }
+.change:hover{
+    color: blue;
+}
 
 .letter{
     font-size: 50px;
@@ -174,10 +192,15 @@
 }
 .bt{
     font-size: 20px;
+    width: 170px;
     padding: 15px;
     background-color: rgb(231, 27, 122);
     color: white;
     border-radius: 25px;
+}
+.bt:hover{
+   background-color: skyblue;
+    transition-duration: 1s;
 }
 .box3{
     width: 100%;
@@ -212,9 +235,33 @@
     background-color:white;
 }
 .f1{
-    width: 150px;
-    height: 150px;
-    background-color: rgb(0, 0, 255);
+    width: 100px;
+    height: 100px;
+    background-color: rgb(44, 176, 252);
+    margin-left: 75px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.f2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(107, 107, 129);
+    margin-left: 75px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.f3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 63, 175);
+    margin-left: 75px;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.f4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(203, 85, 203);
     margin-left: 75px;
     margin-top: 20px;
     border-radius: 100%;
@@ -222,9 +269,9 @@
 #folder{
     size: 30px;
     color: white;
-    margin-left: 45px;
-    margin-top: 40px;
-    font-size: 60px;
+    margin-left: 28px;
+    margin-top: 30px;
+    font-size: 40px;
 }
 .p31{
     font-size: 30px;

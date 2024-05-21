@@ -66,9 +66,10 @@
     margin-right: 70px;
 }
 .megaOne{
-    margin-right: 100px;
+    margin-right: 50px;
     font-size:50px;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 #menu{
     color: white;
@@ -95,6 +96,10 @@
 .img{
     margin-top: 170px;
     border-radius: 50px;
+}
+.img:hover{
+    transform: scale(0.8);
+    transition: 2s;
 }
 .box1-2{
     width: 600px;
@@ -773,12 +778,14 @@ input::placeholder{
     font-weight: 100;
     margin-left: 20px;
     margin-top: -30px;
+    text-decoration: none;
 }
 #aw2{
     font-size: 20px;
     font-weight: 100;
     margin-left: 30px;
     margin-top: -30px;
+    text-decoration: none;
 }
 .box15{
     width: 100%;

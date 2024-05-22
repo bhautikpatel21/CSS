@@ -28,7 +28,7 @@ p:last-child{
     color: red;
     background-color: yellow;
 }
-h1:nth-child(6){
+h1:nth-child(6){ 
     color: red;
     background-color: yellow;
 }

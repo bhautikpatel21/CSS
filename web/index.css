@@ -51,6 +51,7 @@
     gap: 2vw;
     list-style: none;
     margin-right: 20px;
+    margin-left: 60px;
     font-size: 18px;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -68,22 +69,22 @@
 #fb{
     color: white;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 #ins{
     color: white;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 #tw{
     color: white;
     margin-right: 70px;
-    font-size: 30px;
+    font-size: 20px;
 }
 .megaOne{
-    margin-right: 200px;
+    margin-right: 270px;
     margin-left: 200px;
-    font-size:50px;
+    font-size:40px;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -147,6 +148,8 @@
 }
 .button{
     padding: 15px;
+    font-size: 15px;
+    border: 2px solid white;
 }
 .button2{
     border-radius: 35px;

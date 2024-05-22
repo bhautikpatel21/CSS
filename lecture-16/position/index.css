@@ -3,6 +3,8 @@
     gap: 25px;
     width: 500PX;
     height: 2000px;
+    border: 2px solid black0;
+    position: relative;
 }
 
 /*  Static - By default */

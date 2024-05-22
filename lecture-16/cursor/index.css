@@ -1,0 +1,147 @@
+.container{
+    margin-top: 50px;
+    padding-left: 150px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+.box1{
+    background-color:gold;
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor: alias;
+}
+.box2{
+    background-color: rosybrown;
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor: all-scroll;
+}
+.box3{
+    background-color:royalblue;
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor: auto;
+}
+.box4{
+    background-color:olive;
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor: col-resize;
+}
+.box5{
+    background-color: rgb(154, 157, 194);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:context-menu;
+}
+.box6{
+    background-color: rgb(215, 131, 28);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:copy;
+}
+.box7{
+    background-color: rgb(89, 142, 49);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor: crosshair;
+}
+.box8{
+    background-color: rgb(118, 25, 70);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:default;
+}
+.box9{
+    background-color: rgb(143, 188, 67);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor: e-resize;
+}
+.box10{
+    background-color: rgb(36, 11, 103);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:ew-resize;
+}
+.box11{
+    background-color: rgb(40, 42, 42);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:grab;
+}
+.box12{
+    background-color: rgb(89, 17, 62);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:grabbing;
+}
+.box13{
+    background-color: rgb(245, 91, 44);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:help;
+}
+.box14{
+    background-color: rgb(43, 75, 139);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:move;
+}
+.box15{
+    background-color: rgb(8, 244, 91);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:n-resize;
+}
+.box16{
+    background-color: rgb(34, 6, 23);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:ne-resize;
+}
+.box17{
+    background-color: rgb(244, 96, 59);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:nesw-resize;
+}
+.box18{
+    background-color: rgb(202, 181, 176);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:no-drop;
+}
+.box19{
+    background-color: rgb(225, 60, 19);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:none;
+}
+.box20{
+    background-color: rgb(23, 168, 141);
+    border: 1px solid;
+    height: 200px;
+    width: 800px;
+    cursor:not-allowed;
+}

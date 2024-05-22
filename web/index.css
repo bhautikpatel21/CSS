@@ -36,6 +36,37 @@
         transition: 2s;
     }
 } */
+
+.box2-1{
+    animation-duration: 2s;
+    animation-name: slide1;
+    animation-fill-mode: forwards;
+}  
+
+.box2-2{
+    animation-duration: 2s;
+    animation-name: slide2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide1{
+    from{
+        transform: translate(-1100px);
+    }
+    to{
+        transform: translate(50px);
+    }
+}
+
+@keyframes slide2{
+    from{
+        transform: translate(1100px);
+    }
+    to{
+        transform: translate(200px);
+    }
+}
+
 .header{
     display: flex;
     justify-content: end;

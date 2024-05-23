@@ -489,6 +489,7 @@
     background-color: rgb(253, 241, 241);
     display: flex;
     gap: 10px;
+    margin-left: -70px;
     justify-content: center;
 }
 .box71{
@@ -548,6 +549,7 @@
     width: 50%;
     height: 400px;
     background-color: white;
+    margin-left: -250px;
     text-align: center;
 }
 .box8h3{
@@ -569,6 +571,7 @@
 #aio{
     width: 65%;
     height: 1000px;
+    margin-left: -200px;
 }
 .img_aio{
     width: 100%;

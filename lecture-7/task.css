@@ -9,7 +9,7 @@
     padding-right: 15px;
     flex-wrap: wrap;
 }
-.navdiv{
+.navdiv{ 
     display: flex; 
     align-items: center;
     justify-content: space-between;

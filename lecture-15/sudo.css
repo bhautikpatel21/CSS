@@ -18,7 +18,7 @@ input{
 h1:nth-child(6){
     color: red;
     background-color: yellow;
-} 
+}  
 
 h1:only-of-type{
     color: red;

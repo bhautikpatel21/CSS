@@ -14,7 +14,7 @@
 
 
 .box-1{
-    /* 1 way */
+    /* 1 way */ 
     grid-column-start: 1;
     grid-column-end: 4;
 

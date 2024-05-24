@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 80%;
+    height: 550px;
+}
+
+.content img{
+    /* filter: blur(10px); */
+    /* filter: brightness(200%); */
+    /* filter:drop-shadow(10px 20px 5px red) ; */
+    filter: grayscale(100%);
+    /* filter: opacity(0%); */
+    filter: opacity(60%);
+    filter: contrast(0%);
+    filter: contrast(60%);
+}

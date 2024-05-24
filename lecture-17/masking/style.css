@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 70%;
+    height: 830px;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+.mask img{
+    mask-image: url("assets/batman3_1200.png");
+    mask-repeat: no-repeat;
+}
+.mask{
+    background-color: rgb(19, 17, 17);
+}

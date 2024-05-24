@@ -10,7 +10,7 @@
     grid-template-rows: 200px 200px 200px;
     gap: 10px;
 }
-.item1{
+.item1{ 
     /* grid-column: 1 / 4; */
     grid-column: 1 /span 3;
     background-color: aquamarine;

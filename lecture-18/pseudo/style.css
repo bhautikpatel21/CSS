@@ -1,0 +1,80 @@
+/* p:first-child{
+    color: red;
+    background-color: aqua;
+} */
+
+/* p:last-child{
+    color: red;
+    background-color: aqua;
+} */
+
+p:nth-child(4) {
+    color: red;
+    background-color: aqua;
+}
+
+/* p:nth-child(2n) {
+    color: red;
+    background-color: aqua;
+} */
+
+/* p:nth-child(2n+1) {
+    color: red;
+    background-color: aqua;
+} */
+
+/* p:nth-child(odd){
+    color: red;
+    background-color:aqua;
+} */
+
+/* p:nth-child(even) {
+    color: red;
+    background-color: aqua;
+} */
+
+a:link {
+    color: aqua;
+}
+
+a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+a:visited{
+    color: gold;
+    background-color: cadetblue;
+}
+
+a:active{
+    color: brown;
+    background-color: chartreuse;
+}
+
+/* :root{
+    color: blue;
+} */
+
+::selection {
+    color: red;
+    background-color: aquamarine;
+}
+
+p::first-letter{
+    color: red;
+    background-color: burlywood;
+}
+
+/* p::first-line{
+    color: cadetblue;
+    background-color: blueviolet;
+} */
+
+h1::before{
+    content: "*";
+}
+
+h1::after{
+    content: " ___Jay Hanuman dada";
+}

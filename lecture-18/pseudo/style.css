@@ -78,3 +78,9 @@ h1::before{
 h1::after{
     content: " ___Jay Hanuman dada";
 }
+
+li::marker{
+    color: red;
+    background-color: aqua;
+    font-size: 45px;
+}

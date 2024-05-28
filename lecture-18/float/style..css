@@ -1,0 +1,19 @@
+.contant{
+    border: 5px solid;
+}
+
+.main1 img{
+    float: left;
+    /* float: right; */
+}
+
+.main2{
+    color: red;
+}
+
+.main3{
+    color: blue;
+    clear: left;
+    clear: both;
+    /* clear: right; */
+}

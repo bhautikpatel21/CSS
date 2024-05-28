@@ -1,0 +1,80 @@
+.main{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color: aquamarine;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes  abc{
+    from{
+        background-color: aqua;
+        color: red;
+        left: 0;
+        top: 0;
+    }
+    to{
+        top: 0;
+        left: 400px;
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+}
+
+@keyframes circle{
+    /* form {
+        background-color: cadetblue;
+        color: brown;
+        left:0;
+        top: 0;
+    }
+    to{
+        top: 0;
+        left:200px;
+        background-color: chocolate;
+        border-radius: 50%;
+    } */
+
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+
+    50%{
+        background-color: blue;
+        left:200px;
+        top: 200px;
+        border-radius: 50%;
+    }
+
+    75%{
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

@@ -204,6 +204,7 @@
 }
 .qwe{
     margin-top: 20px;
+    font-weight: 100;
 }
 .button{
     padding: 15px;
@@ -768,17 +769,26 @@
     border-radius: 45px 45px 0px 0px;
     margin-left: -170px;
 }
+.box111:hover{
+    transform: scale(1.01);
+}
 .box112{
     height: 100%;
     width: 450px;
     background-color:rgb(243, 238, 229);
     border-radius: 45px 45px 0px 0px;
 }
+.box112:hover{
+    transform: scale(1.01);
+}
 .box113{
     height: 100%;
     width: 450px;
     background-color: rgb(243, 238, 229);
     border-radius: 45px 45px 0px 0px;
+}
+.box113:hover{
+    transform: scale(1.01);
 }
 #imgb11{
     height: 45%;

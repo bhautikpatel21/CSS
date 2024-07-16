@@ -1118,10 +1118,7 @@ input::placeholder{
     }
  }
 
- @media (min-width : 769px) and (max-width : 990px) {
-    .box1{
-        padding-top: 100px;
-    }
+ @media (min-width : 769px) and (max-width : 992px) {
     .header {
         visibility: hidden;
     }
@@ -1134,10 +1131,12 @@ input::placeholder{
     .img {
         margin-top: 0px;
         margin-left: -300px;
+        margin-left: calc(-300px - 50px);
         margin-right: 0px;
         border-radius: 0px;
         width: 300px;
         height: 400px;
+        margin-top: 100px;
     }
     .span {
         font-size: 50px;
@@ -1147,8 +1146,65 @@ input::placeholder{
         font-size: 40px;
     }
     .box1-2 {
-        background-color: aquamarine;
+        margin-top:150px;
+        width: 400px;
+        margin-left: -50px;
+    }
+    .text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+ }
+
+@media (min-width : 993px) and (max-width : 1024px) {
+    .megaOne{
+        margin-right:0%;
+        margin-left: 0%;
+        font-size: 30px;
+    }
+    .button {
+        margin-right: -100px;
+    }
+    #fb {
+        visibility: hidden;
+    }
+    #ins{
+        visibility: hidden;
+    }
+    #tw{
+        visibility: hidden;
+    }
+    .box1-1 {
+        visibility: hidden;
+    }
+    .box17 {
+        visibility: hidden;
+    }
+    #menu {
+        visibility: hidden;
+    }
+    li {
+        width: 80px;
+    }
+    .img {
         margin-top: 0px;
+        margin-left: -200px;
+        margin-left: calc(-200px - 50px);
+        margin-right: 0px;
+        border-radius: 0px;
+        max-width: 300px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .span {
+        font-size: 50px;
+    }
+
+    .span2 {
+        font-size: 40px;
+    }
+    .box1-2 {
+        margin-top:150px;
         width: 400px;
     }
     .text {
@@ -1157,25 +1213,72 @@ input::placeholder{
     }
  }
 
-/* @media (min-width :769px) and (max-width : 1024px) {
-    .box1-1 {
-        visibility: hidden;
-    }
-    .box1 {
-        max-width: 1024;
-    }
-    .header{
-        margin-top: 0%;
-    }
-    .ul {
-        font-size: 13px;
-    }
+@media(min-width : 1025px) and (max-width : 1440px) {
     .megaOne{
-        margin-right: 0%;
+        margin-right:0%;
         margin-left: 0%;
     }
     .button {
-        font-size: 10px;
-        margin-right: 0%;
+        margin-right: -100px;
+    }
+    #fb {
+        visibility: hidden;
+    }
+    #ins{
+        visibility: hidden;
+    }
+    #tw{
+        visibility: hidden;
+    }
+    .box1-1 {
+        width: 300px;
+        height: 300px;
+    }
+    .box17 {
+        visibility: hidden;
+    }
+    #menu {
+        visibility: hidden;
+    }
+    li {
+        width: 80px;
+    }
+    .img {
+        /* margin-left: 100px; */
+       margin-left: 80px;
+        margin-right: 0px;
+        border-radius: 0px;
+        max-width: 300px;
+        height: 400px;
+        margin-top: 100px;
+    }
+    .span {
+        font-size: 50px;
+    }
+
+    .span2 {
+        font-size: 40px;
+    }
+    .box1-2 {
+        margin-top:150px;
+        width: 400px;
+    }
+    .text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+} 
+
+/* @media (min-width : 1441px) and (max-width : 2560px) {
+    .img{
+        margin-left: 400px;
+        margin-top: 300px;
+    }
+    .box1-2{
+        margin-top: 400px;
+    }
+    .img-c {
+        margin-left: 100px;
+        margin-top: 200px;
     }
 } */
